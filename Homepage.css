@@ -1,0 +1,253 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: orange;
+    background-image: url(../photos/wakeup.png);
+    background-size: 74px 78px;
+    background-repeat: repeat;
+}
+.blue-box {
+    width: 100%;
+    padding: 15px;
+    height: 250px;
+    margin: 10px;
+    background-color: #0e006b;
+    color: white;
+    text-align: center;
+    /* display: inline-block; */
+    /* flex-direction: row; */
+    justify-content:center ;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgba(20, 0, 86, 0.75);
+}
+
+.blue-box img {
+    width: 8%;
+    height: 120px;
+    /* position: relative;
+    top: 30px;
+    left: 4px; */
+}
+
+.blue-box h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.blue-box:hover {
+    background: linear-gradient( to right, #87CEEB, #1E90FF );
+}
+
+/**/
+
+
+
+
+
+
+.purple-box {
+    width: 100%;
+    padding: 15px;
+    height: 250px;
+    margin: 10px;
+    background-color: #bd5829;
+    color: white;
+    text-align: center;
+    /* display: inline-block; */
+    /* flex-direction: row; */
+    justify-content:center ;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgb(242, 93, 0);
+
+}
+
+.purple-box img {
+    width: 8%;
+    height: 120px;
+    /* position: relative;
+    top: 0px;
+    left: 7px; */
+}
+
+.purple-box h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.purple-box:hover {
+    background: linear-gradient( to right, #FFA500, #FF6347 );
+}
+
+
+
+
+
+
+
+
+.green-box {
+    width: 100%;
+    padding: 15px;
+    height: 250px;
+    margin: 10px;
+    background-color: #1e5e21;
+    color: white;
+    text-align: center;
+    /* display: inline-block; */
+    /* flex-direction: row; */
+    justify-content:center ;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgb(0, 225, 98);
+
+}
+
+.green-box svg {
+    width: 8%;
+    height: 120px;
+    /* position: relative;
+    top: 0px;
+    left: 7px; */
+}
+
+.green-box h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.green-box:hover {
+    background: linear-gradient( to right, #00FF00, #008000 );
+}
+.blue-box,.purple-box,.green-box{
+    left: 204px;
+    border-radius: 10px;
+    width: 70%;
+    position: relative;
+}
+.eadobt{
+    width: 5%;
+}
+p{
+    position: relative;
+    top: 50px;
+    left: 249px;
+    transform: 0translate(50%, 50%);
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-indent: 2px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#P01{
+    font-size: 27px;
+    height: 40px;
+    width: 70%;
+    text-align: center;
+    background: linear-gradient( to right, #ffffff, #000000 );
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .blue-box, .purple-box, .green-box {
+        border-radius: 10px;
+    width: 56%;
+    position: relative;
+    left: 259px;
+    bottom: -62px;
+    }
+    .navbar-inverse{
+        width: 132%;
+    }
+    #P01{
+        width: 132%;
+    }
+    p{
+        position: relative;
+        left: 58px;
+        top: 38px;
+        width: 100%;
+        left:108px;
+    }
+    .blue-box img ,.purple-box img ,.green-box svg{
+        width: 36%;
+    height: 102px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .blue-box, .purple-box, .green-box {
+       top: 90px;
+    left: 114px;
+    border-radius: 10px;
+    width: 75%;
+    position: relative;
+    }
+    /* .navbar-inverse{
+        width: 130%;
+    } */
+    #P01{
+        width: 99%;
+    }
+    p{
+        position: relative;
+        top: 38px;
+        width: 99%;
+        left: -2px; 
+    }
+    .blue-box img ,.purple-box img ,.green-box svg{
+        width: 16%;
+        height: 136px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .blue-box, .purple-box, .green-box {
+        top: 90px;
+     left: 114px;
+     border-radius: 10px;
+     width: 75%;
+     position: relative;
+     }
+     /* .navbar-inverse{
+         width: 130%;
+     } */
+     #P01{
+         width: 99%;
+     }
+     p{
+         position: relative;
+         top: 38px;
+         width: 99%;
+         left: -2px; 
+     }
+     .blue-box img ,.purple-box img ,.green-box svg{
+         width: 16%;
+         height: 136px;
+     }
+}
+
+@media (min-width:1200px){
+    p{
+        position: relative;
+        left: 208px; 
+    }
+}
